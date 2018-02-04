@@ -1,7 +1,5 @@
-
 var SpeechToTextV1 = require('watson-developer-cloud/speech-to-text/v1');
 var fs = require('fs');
-var result;
 
 var speech_to_text = new SpeechToTextV1 ({
   username: 'e60c7d34-646e-4dff-9b71-d415f396babf',
