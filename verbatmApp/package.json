@@ -23,7 +23,9 @@
     "bcrypt": "*",
     "ejs": "*",
     "jsonwebtoken": "*",
-    "passport-local-mongoose": "*"
+    "passport-local-mongoose": "*",
+    "consolidate": "*",
+    "mustache": "*"
   },
   "author": "Maya Bielecki",
   "license": "ISC"

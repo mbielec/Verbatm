@@ -1,0 +1,69 @@
+body{
+    background-image: url("./img/world.png");
+    background-size: cover;
+}
+
+h2, p{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.imgcontainer{
+    background-color: rgb(255, 203, 168);
+    border-radius:25px;
+    padding: 15px;
+    width: 400px;
+    text-align: center;
+    margin: 24px auto 12px auto;
+}
+
+input[type=text], input[type=password] {
+    border-radius: 25px;
+    border: 2px solid #ff8840;
+    padding: 20px;
+    width: 200px;
+    height: 3px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+#button{
+    border-radius: 25px;
+    border: 2px solid #ff8840;
+    width: 6em;
+    background: #ffffff;
+}
+a {
+    display: block;
+    width: 100%;
+    line-height: 2em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a:hover {
+    color: pink;
+}

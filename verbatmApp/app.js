@@ -24,6 +24,8 @@ const paths = require('./routes/paths');
 const mongoose = require('mongoose');
 const flash = require('connect-flash');
 const session = require('express-session');
+var engines = require('consolidate');
+const mustache = require('mustache');
 //---------------------------------------------------------------
 
 
@@ -57,7 +59,7 @@ app.use(cookieParser());
 
 //Set static folder: now the browser will automatically search here for static files such as html pages, image files and
 // css scripts.
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'views')));
 
 app.use(session({secret:'keyboard cat'}));
 
@@ -86,6 +88,9 @@ app.listen(port, function() {
 
 module.exports=app;
 
+app.set('views', __dirname + '/views');
+app.engine('html', engines.mustache);
+app.set('view engine', 'html');
 
 //Use connect-flash
 

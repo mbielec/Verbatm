@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="./index.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
     <title>Verbatm | Log In</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-<h2><b>Welcome to Verbatm!</b></h2>
-<p><b><i>Speak with confidence - Improve your English!</i></b></p>
+
 
 <form action="/action_page.php">
     <div class="imgcontainer">
-        <img src="./img/ellehacks.png" alt="Avatar" style="width:110px;height:100px;">
-
+        <img src="./img/ellehacks.png" id="avatar">
+        <h2><b>Welcome to Verbatm!</b></h2>
+        <p><b>Speak with confidence - Improve your English!</b></p>
+        <br>
         <center><label><b>Username</b></label>
             <input type="text" placeholder="Enter Username" name="uname" required>
             <br>
@@ -29,30 +30,9 @@
                 <input type="radio" name="level" value="Intermediate"> Intermediate<br>
                 <input type="radio" name="level" value="Expert"> Expert
             </form>
-
-
             <br>
             <br>
-            <div id="button"><a href="signup.html">Let's Begin!</a></div>
-            <style>
-                #button {
-                    border-radius: 25px;
-                    border: 2px solid #ff8840;
-                    width: 6em;
-                    background: #ffffff;
-                }
-                a {
-                    display: block;
-                    width: 100%;
-                    line-height: 2em;
-                    text-align: center;
-                    text-decoration: none;
-                    border-radius: 5px;
-                }
-                a:hover {
-                    color: pink;
-                }
-            </style>
+            <div id="button"><a href="home.html">Let's Begin!</a></div>
             <br>
             <label>
                 <input type="checkbox" checked="checked"> Remember me

@@ -1,0 +1,12 @@
+body {
+    background-image: url("./img/panel3.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin-left: 400px;
+    background-attachment: fixed;
+    background-color: #ffe6c9;
+}
+
+h1, p{
+    font-family: sans-serif;
+}
