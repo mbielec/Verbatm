@@ -14,4 +14,3 @@ npm install
 ```
 npm start
 ```
-### Usage from Command Line
