@@ -2,7 +2,7 @@
 ### Description
 A language pronunciation learning app using Watson's Speech-to-Text API.
 
-### Usage with IntelliJ
+### Usage 
 
 1.Make sure you have node.js installed. Import the project from VCS.
 
