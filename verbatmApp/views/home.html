@@ -7,10 +7,15 @@
 <body>
     <h1>Level One</h1>
     <br>
-    <p>What is this fruit called?</p>
-    <p><img src="./img/apple.png" alt="" width="150" height="160" /></p>
+    <p>Read the following word out loud.</p>
+    <img id="question" alt="" width="150" height="160" />
+    <p id="word"></p>
     <br>
     <p data-delay="1">Listening to Audio...</p>
     <p><img src="./img/audiow.png" alt="" width="400" height="100" /></p>
+    <button id="Next" onclick="next()">Next</button>
+
+    <script src="words.js"></script>
+    <script src="home.js"></script>
 </body>
 </html>
