@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+
+        input[type=text], input[type=password] {
+            border-radius: 25px;
+            border: 2px solid #ff8840;
+            padding: 20px;
+            width: 200px;
+            height: 3px;
+        }
+
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 50%;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+
+        .imgcontainer {
+            text-align: center;
+            margin: 24px 0 12px 0;
+        }
+
+        img.avatar {
+            width: 40%;
+            border-radius: 50%;
+        }
+
+
+        span.psw {
+            float: right;
+            padding-top: 16px;
+        }
+
+    </style>
+</head>
+<body background="world.png">
+
+
+
+<h2 style="font-family: sans-serif;"><center><b>Welcome to Green Card!</b></center></h2>
+<p style="font-family: sans-serif;"><center><b><i>Speak with more confidence - Improve your English! </b></i></center></p>
+<!--<font face="verdana" color="green">This is some text!</font>-->
+
+
+<form action="/action_page.php">
+    <div class="imgcontainer">
+        <!--<img src="img_avatar2.png" alt="Avatar" class="avatar">-->
+        <img src="ellehacks.png" alt="Avatar" style="width:110px;height:100px;">
+    </div>
+
+    <div class="container">
+        <center><label><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="uname" required>
+            <br>
+            <br>
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <form>
+                <br>
+                <br>
+                <label><b>Select Difficulty</b></label><br>
+                <input type="radio" name="level" value="Beginner" checked> Beginner<br>
+                <input type="radio" name="level" value="Intermediate"> Intermediate<br>
+                <input type="radio" name="level" value="Expert"> Expert
+            </form>
+
+
+            <br>
+            <br>
+            <div id="button"><a href="LevelTwo.html">Let's Begin!</a></div>
+            <style>
+                #button {
+                    border-radius: 25px;
+                    border: 2px solid #ff8840;
+                    width: 6em;
+                    background: #ffffff;
+                }
+                a {
+                    display: block;
+                    width: 100%;
+                    line-height: 2em;
+                    text-align: center;
+                    text-decoration: none;
+                    border-radius: 5px;
+                }
+                a:hover {
+                    color: pink;
+                }
+            </style>
+            <br>
+            <label>
+                <input type="checkbox" checked="checked"> Remember me
+            </label>
+    </div>
+
+    </center>
+    <div class="container" style="background-color:#f1f1f1">
+
+
+    </div>
+</form>
+
+</body>
+</html>
