@@ -1,12 +1,29 @@
 body {
-    background-image: url("./img/panel3.png");
-    background-repeat: no-repeat;
-    background-position: left top;
-    margin-left: 400px;
-    background-attachment: fixed;
     background-color: #ffe6c9;
+    margin: 0;
 }
 
-h1, p{
-    font-family: sans-serif;
+#sidebar{
+    background-color: rgb(255, 203, 168);
+    float: left;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    margin: 0;
+}
+
+#main{
+    float:left;
+    width: 80%;
+    margin-left: 20%;
+    padding-left: 10%;
+}
+
+#instruction, h2, p, #title, #word{
+    text-align: left;
+}
+
+h2, p, label, input, button, a, form{
+    font-family: "Arial", sans-serif;
+    text-align: center;
 }

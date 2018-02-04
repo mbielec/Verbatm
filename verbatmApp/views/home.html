@@ -5,15 +5,22 @@
     <title>Verbatm | Home</title>
 </head>
 <body>
-    <h1>Level One</h1>
-    <br>
-    <p>Read the following word out loud.</p>
-    <img id="question" alt="" width="150" height="160" />
-    <p id="word"></p>
-    <br>
-    <p data-delay="1">Listening to Audio...</p>
-    <p><img src="./img/audiow.png" alt="" width="400" height="100" /></p>
-    <button id="Next" onclick="next()">Next</button>
+    <div id="sidebar">
+        <img src="./img/ellehacks.png" id="profile pic">
+        <br><br>
+        <h2>User Name</h2>
+        <h2>Points So Far: </h2>
+        <h2 id="points">0</h2>
+    </div>
+    <div id = "main">
+        <h2 id="title">Level One</h2>
+        <br>
+        <p id = "instruction">Read the following word out loud.</p>
+        <img id="question" alt="" width="150" height="160" />
+        <p id="word"></p>
+        <br>
+        <button id="Next" onclick="next()">Get Picture</button>
+    </div>
 
     <script src="words.js"></script>
     <script src="home.js"></script>

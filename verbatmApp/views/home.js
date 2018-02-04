@@ -7,11 +7,14 @@ while (!(wordsdatabase.words[i] == null)){
 i = i +1;
 questionNumber = parseInt(Math.random() * (i));
 
-document.getElementById("word").innerHTML = wordsdatabase.words[questionNumber].word;
-document.getElementById("question").src = wordsdatabase.words[questionNumber].picture;
+var points=0;
 
 function next() {
+    var correct = false;
     questionNumber = parseInt(Math.random() * (i));
     document.getElementById('word').innerHTML = wordsdatabase.words[questionNumber].word;
     document.getElementById("question").src = wordsdatabase.words[questionNumber].picture;
+    points += 10;
+    document.getElementById("points").innerHTML = points.toString();
+
 }
